@@ -1,0 +1,7 @@
+C:\Users\Calculo\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe.config
+C:\Users\Calculo\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe
+C:\Users\Calculo\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
+C:\Users\Calculo\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.AssemblyReference.cache
+C:\Users\Calculo\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\Calculo\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
+C:\Users\Calculo\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
