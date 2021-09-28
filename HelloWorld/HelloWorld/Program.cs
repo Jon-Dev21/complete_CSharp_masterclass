@@ -12,7 +12,7 @@ namespace HelloWorld
         {
             int num1 = 20;
             int num2 = 30;
-            Console.WriteLine(num1 + num2);
+            Console.WriteLine("The sum of "+num1+" + " + num2+ " = "+(num1+num2));
             Console.ReadKey();
         }
     }
