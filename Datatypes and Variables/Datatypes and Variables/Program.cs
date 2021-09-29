@@ -6,6 +6,7 @@ namespace Datatypes_and_Variables
     {
         static void Main(string[] args)
         {
+            /*
             // ------------ Numeric Data Types ------------
 
             int age = 15;
@@ -66,7 +67,7 @@ namespace Datatypes_and_Variables
             Console.WriteLine("Username: "+username);
             Console.WriteLine();
 
-            /*
+
             // Messing with booleans
             bool isDone = false;
             Console.WriteLine("Hello Bro. Are you done? ");
@@ -80,6 +81,60 @@ namespace Datatypes_and_Variables
             }
             
             */
+
+
+            // ============== USING / INITIALIZING VARIABLES ============== 
+
+            // Declaring an integer
+            int num1;
+            
+            // assigning value to a variable
+            num1 = 300;
+            
+            // Declaring and initializing variable at the same time.
+            int num2 = -100;
+            
+            // Adding num1 + num2
+            Console.WriteLine(num1+num2);
+
+            //Console.Read();
+
+            // using concatenation
+            Console.WriteLine("Num1 = "+num1);
+            Console.WriteLine("Num2 = "+num2);
+            Console.WriteLine("Num1 + Num2 = "+(num1+num2));
+
+            // Creating multiple variables at once
+            int num3 = 4, num4=12, num5=124;
+            Console.WriteLine("Adding "+num3+ ", "+num4+", "+num5+": "+ (num3+num4+num5));
+
+            double d1 = 3.1415;
+            double d2 = 5.1;
+            Console.WriteLine();
+            Console.WriteLine("Double Division: {0} / {1} = {2}",d1,d2,d1/d2);
+
+            float f1 = 3.1415f;
+            float f2 = 5.1f;
+            Console.WriteLine();
+            Console.WriteLine("Float Division: {0} / {1} = {2}", f1, f2, f1 / f2);
+
+            long longNum = 416854321845312514;
+            long longNum2 = 5658419684135156;
+            Console.WriteLine();
+            Console.WriteLine("Adding long numbers: "+(longNum+longNum2));
+
+            long longNum3 = 486465163854;
+            int iNum2 = 12213;
+            Console.WriteLine();
+            Console.WriteLine("Adding long and int numbers: " + (longNum3 + iNum2));
+
+            double d4 = 10.6;
+            int inum3 = 3;
+            Console.WriteLine();
+            Console.WriteLine("Dividing double and int: " + (d4 / inum3));
+
+            Console.WriteLine();
+            Console.WriteLine("Dividing int and double: " + (inum3 / d4));
         }
     }
 }
