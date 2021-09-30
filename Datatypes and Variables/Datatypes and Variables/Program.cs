@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Datatypes_and_Variables
 {
@@ -7,7 +11,9 @@ namespace Datatypes_and_Variables
         static void Main(string[] args)
         {
             /*
-            // ------------ Numeric Data Types ------------
+            // ============================================================
+            // ==================== Numeric Data Types ====================
+            // ============================================================
 
             int age = 15;
             Console.WriteLine("Age is {0}", age);
@@ -82,9 +88,11 @@ namespace Datatypes_and_Variables
             
             */
 
-
+            // ============================================================ 
             // ============== USING / INITIALIZING VARIABLES ============== 
+            // ============================================================
 
+            /*
             // Declaring an integer
             int num1;
             
@@ -135,6 +143,94 @@ namespace Datatypes_and_Variables
 
             Console.WriteLine();
             Console.WriteLine("Dividing int and double: " + (inum3 / d4));
+            */
+
+
+            // ============================================================
+            // ========================= Strings ==========================
+            // ============================================================
+
+            // Capital S in String invokes the string class.
+            // Lowercase string just refers to the string variable.
+
+            /*
+            string myName = "John";
+            Console.WriteLine("My name is {0}", myName.ToUpper());
+            */
+
+            // ============================================================
+            // ==================== Coding Standards ======================
+            // ============================================================
+
+            // 1. Always give your variables a reasonable name. Name must be related to the variable's use.
+            // 2. Always give your function a reasonable name. Name must be related to the function's use.
+            // 3. Always comment your code. Make comments as descriptive as possible. There are three types of comments:
+            //      - // Single line comments (double slash)
+            //      - /* MultiLine comments (slash and asterisk)
+            //      -  <summary> XML Comments </summary> (start with 3 slashes).
+            //         Useful when describing variables and methods. When hovering on an xml commented method, the summary will appear.
+
+            // ============================================================
+            // ============== Value Type vs Reference Type ================
+            // ============================================================
+
+            // Value Types:
+
+            // Value types are data types which holds values directly on it's own memory space.
+            // Value types use heaps to store the values.
+            // Value types include int, float, long, double, char, bool, decimal double, etc.
+
+            // Reference Types: 
+
+            // Reference Types are types that instead of storing values in memory directly,
+            // stores the memory location of the actual data.
+            // Reference types include string, class, Array, etc.
+
+            // ============================================================
+            // ==================== Console Methods =======================
+            // ============================================================
+
+            // Exploring console class methods.
+
+            /*
+            Console.Write("Console.Write() prints text and keeps the cursor on the same line");
+            Console.WriteLine("Console.WriteLine() prints text and puts the cursor in the next line");
+            Console.Read() - Takes a single input of type string and returns the ASCII value of that input. (ASCII Stands for American Standard Code for Information Interchange)
+            Console.ReadLine() - Takes a string or integer and returns it as the Output value. 
+            Console.ReadKey() - Takes a single input of type string and returns the Key info
+
+            */
+
+            // Testing Console methods
+            /*
+            Console.Write("Enter some input: ");
+            string input = Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("Entered Input: {0}", input);
+            Console.WriteLine();
+            Console.Write("Enter a string and press enter: ");
+            int ASCIIVal = Console.Read();
+            Console.WriteLine("The ASCII value is {0}", ASCIIVal);
+
+            For more methods, check the Microsoft Docs: https://docs.microsoft.com/en-us/dotnet/api/system.console.writeline?view=net-5.0
+            */
+
+            // ============================================================
+            // ============= Changing Console Methods =====================
+            // ============================================================
+
+            /*
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
+            Console.Clear();
+            Console.Title = "I am the title";
+            Console.WriteLine("I'm Blue. Dabadee dabadaaaiii");
+            */
+
+            // ============================================================
+            // ========= Naming Conventions and Coding Standards ==========
+            // ============================================================
+
         }
     }
 }
