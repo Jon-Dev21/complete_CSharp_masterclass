@@ -231,6 +231,33 @@ namespace Datatypes_and_Variables
             // ========= Naming Conventions and Coding Standards ==========
             // ============================================================
 
+            // When declaring a class or method you should use Pascal Casing (Each word starts with a capital letter.
+            // Class name example: ClientActivity.
+            // Method name example: CalculateValue.
+
+            // For method arguments, you should use camel casing:
+            // Method argument name example: firstNumber
+
+            // Try to avoid underscores in variable names with an exception to the beginning.
+
+            // Correct
+            //string myName;
+            //int lastNum;
+            //bool isSaved;
+            //string _firstName
+
+            // Avoid
+            // String myName
+            // Int32 lastNum
+            // Boolean isSaved
+            // string first_name
+
+            // For more coding standards, visit: https://dofactory.com/csharp-coding-standards
+
+            // ============================================================
+            // ============ Implicit and Explicit Conversions =============
+            // ============================================================
+
         }
     }
 }
