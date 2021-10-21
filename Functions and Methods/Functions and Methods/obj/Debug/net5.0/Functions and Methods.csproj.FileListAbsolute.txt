@@ -1,0 +1,16 @@
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Functions and Methods\Functions and Methods\bin\Debug\net5.0\Functions and Methods.exe
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Functions and Methods\Functions and Methods\bin\Debug\net5.0\Functions and Methods.deps.json
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Functions and Methods\Functions and Methods\bin\Debug\net5.0\Functions and Methods.runtimeconfig.json
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Functions and Methods\Functions and Methods\bin\Debug\net5.0\Functions and Methods.runtimeconfig.dev.json
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Functions and Methods\Functions and Methods\bin\Debug\net5.0\Functions and Methods.dll
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Functions and Methods\Functions and Methods\bin\Debug\net5.0\ref\Functions and Methods.dll
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Functions and Methods\Functions and Methods\bin\Debug\net5.0\Functions and Methods.pdb
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Functions and Methods\Functions and Methods\obj\Debug\net5.0\Functions and Methods.csproj.AssemblyReference.cache
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Functions and Methods\Functions and Methods\obj\Debug\net5.0\Functions and Methods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Functions and Methods\Functions and Methods\obj\Debug\net5.0\Functions and Methods.AssemblyInfoInputs.cache
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Functions and Methods\Functions and Methods\obj\Debug\net5.0\Functions and Methods.AssemblyInfo.cs
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Functions and Methods\Functions and Methods\obj\Debug\net5.0\Functions and Methods.csproj.CoreCompileInputs.cache
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Functions and Methods\Functions and Methods\obj\Debug\net5.0\Functions and Methods.dll
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Functions and Methods\Functions and Methods\obj\Debug\net5.0\ref\Functions and Methods.dll
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Functions and Methods\Functions and Methods\obj\Debug\net5.0\Functions and Methods.pdb
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Functions and Methods\Functions and Methods\obj\Debug\net5.0\Functions and Methods.genruntimeconfig.cache
