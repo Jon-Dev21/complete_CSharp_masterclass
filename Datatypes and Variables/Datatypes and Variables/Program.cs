@@ -257,6 +257,40 @@ namespace Datatypes_and_Variables
             // ============================================================
             // ============ Implicit and Explicit Conversions =============
             // ============================================================
+            /*
+            // ==  Explicit conversions (float to int, double to int, etc)==
+            double myDouble = 13.53;
+            int myInt;
+
+            // Cast double to int (Cuts the decimal point. Does not round it):
+            myInt = (int) myDouble;
+            Console.WriteLine(myInt);
+
+            // == Implicit conversion (From Bigger types to smaller types)==
+            int num = 12345667;
+            long bigNum = num;
+
+            float myFloat = 13.37F;
+            double myNewDouble = myFloat;
+
+            // Type Conversion
+            
+            // From double to string
+            string myString = myNewDouble.ToString();
+            Console.WriteLine(myString);
+            // From bool to string
+            bool sunIsShining = true;
+            Console.WriteLine(sunIsShining.ToString());
+
+
+            // Challenge. Convert myFloat into a string.
+            string myFloatString = myFloat.ToString();
+            Console.WriteLine(myFloatString);
+            */
+
+            // ============================================================
+            // ================ Parsing string to Integer =================
+            // ============================================================
 
         }
     }
