@@ -291,7 +291,194 @@ namespace Datatypes_and_Variables
             // ============================================================
             // ================ Parsing string to Integer =================
             // ============================================================
+            /*
+            string myString = "15";
+            string mySecondString = "13";
+            string result = myString + mySecondString; // Concatinates string instead of adding.
 
+            // Converting string to int
+            int num1 = Int32.Parse(myString);
+            int num2 = Int32.Parse(mySecondString);
+            int res = num1 + num2;
+            Console.WriteLine(res);
+            */
+
+            // ============================================================
+            // =================== String Manipulation ====================
+            // ============================================================
+            /*
+            int age = 31;
+            string name = "Alfonso";
+            string profession = "Software Developer"; // Challenge variable
+
+            // 1. String Concatenation
+            Console.WriteLine("String Concatenation");
+            Console.WriteLine("Hello. My name is "+name+", I am "+age+ " years old.");
+            Console.WriteLine();
+            // 2. String Formatting (Challenge. Create 3rd variable to use.)
+            // String formatting uses indexes starting at 0 for variables.
+            Console.WriteLine("String Formatting");
+            Console.WriteLine("Hello. My name is {0}, I am {1} years old and I am a {2}.", name, age, profession);
+            Console.WriteLine();
+            // 3. String Interpolation
+            // String interpolation uses $ at the start which will allow you to write 
+            // your own variables inside of the string placed in curly brackers. {variable}
+            Console.WriteLine("String Interpolation");
+            Console.WriteLine($"Hello. My name is {name}, I am {age} years old and I am a {profession}.");
+            Console.WriteLine();
+            // 4. Verbatim Strings
+            // Verbatim strings start with @ and tells the compiler to take the string literally
+            // and ignore any spaces and escape characters like \n, \t, etc.
+            Console.WriteLine("Verbatim Strings");
+            Console.WriteLine(@"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque 
+            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta 
+            sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur 
+            magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit 
+            amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam 
+            quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut 
+            aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae 
+            consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?");
+            */
+
+            // ============================================================
+            // ===================== String Methods =======================
+            // ============================================================
+
+            // Substring(int32) - Used to get substring from string, starting from specified index.
+
+            // ToLower() - Used to convert string to lowercase
+
+            // ToUpper() - Used to convert string to uppercase
+
+            // Trim() - Removes all leading and trailing white spaces from string.
+
+            // IndexOf(string) - returns the first occurence of the string or character inside a string.
+
+            // IsNullOrWhitespace - returns true if string is either null or blank, else returns false.
+
+            // string.Concat(string, string, string) - concatinates all the comma separated strings passed inside the parameters. 
+
+            // String.Format - used to insert object or variable value inside a string.
+            // With String.Format we can replace the value in the specified format.
+            // Syntax: String.Format("any string {index}", object);
+            // Example:
+            // var name = "John"
+            // String.Format("My name is {0}., name); name is replaced by {0}
+            // Output will be "My name is John."
+
+            // ============================================================
+            // =================== String Challenge =======================
+            // ============================================================
+
+            /*
+             * Challenge 1 – String and its methods
+            Now you know the use of various string functions so let’s create a small Console application to practice this.
+            Declare a string variable and don’t assign any value to it.
+            Print on the console “Please enter your name and press enter”. 
+            You can then enter your name or any other valid string like “tutorials.eu”.
+            Assign that entered string to the string variable which you have declared initially.
+            The program should write on the console that string in Uppercase in the first line, 
+            then the same string in Lowercase in the second line. In the third line, it writes 
+            on the console the string with no trailing or preceding white space like if string entered 
+            as “ tutorials.eu ” it should be written on the console as “tutorials.eu”. 
+            And in the last line, it should write the Substring of the entered string on the console.
+            These kinds of features are e.g. used when creating a login screen, where the system will 
+            cut out trailing or preceding white space or, doesn’t care about the casing of the entered username.
+             
+
+            // Challenge Area
+            string name = "";
+            Console.Write("Please enter your name and press enter: ");
+            name = Console.ReadLine();
+            Console.WriteLine("Uppercase name: {0}",name.ToUpper());
+            Console.WriteLine("Lowercase name: {0}", name.ToLower());
+            Console.WriteLine("Trimming name: {0}", name.Trim());
+            Console.WriteLine("Substring of name: {0}", name.Substring(0,8));
+            */
+
+            // ============================================================
+            // ================== String Challenge 2 ======================
+            // ============================================================
+
+            /*
+             Let’s create another console application for more practice.
+            This application asks the user to input a string in the first line like “Enter a string here: ”.
+            In the Second Line, it should ask for the character to search in the string which you have entered 
+            in the first line like “Enter the character to search: ”
+            On the third line, it should write the index of the first occurrence of the searched character from the string.
+            Now on concatenation...
+            It should then ask to enter the first name and once the name is written and the enter button is pressed, 
+            it should ask to enter the last name.
+            It should then show your full name printed in a single line like in my case the output will be "Denis Panjuta". 
+            Output can be different in your case. Try to store the full name in a variable, before displaying it.             
+             
+
+            Console.Write("Enter a string here: ");
+            string input = Console.ReadLine();
+            Console.Write("Enter the character to search for: ");
+            char searchKey = Console.ReadLine()[0];                     // With the square bracket, i get the first letter of the string
+            Console.WriteLine("Searching for {0} in string \"{1}\". Index: {2}",searchKey,input, input.ToLower().IndexOf(searchKey.ToString().ToLower()));
+            Console.WriteLine();
+            Console.WriteLine("Concatenation part");
+            Console.Write("Enter your first name: ");
+            string firstName = Console.ReadLine();
+            Console.Write("Enter your last name: ");
+            string lastName = Console.ReadLine();
+            Console.WriteLine(string.Concat("Your full name is ",firstName, " ", lastName, "."));
+            */
+
+            // ============================================================
+            // ========== Datatypes and Variables Challenge ===============
+            // ============================================================
+            /*
+            Now that you know how to declare and initialize Variables, please go ahead and create 
+            a variable for each of the primitive datatypes (you can find the list here: 
+            https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2008/ms228360(v=vs.90)?redirectedfrom=MSDN). 
+            Leave the Object datatype out. And also please initialize each variable with a working value.
+            Then create two values of type string. 
+            The first one should say "I control text"
+            The second one should be a whole number. Then use the Parse method in order to convert that string to an integer.
+            Add each an output for each of the variables and write it onto the console. (WriteLine)
+            Feel free to name your variables as you like, but keep in mind, that my result's variable names will differ to yours.
+            Have fun :)
+
+            int integer = 10;
+            byte byteNum = 255;
+            long longnum = 1345134141374245713;
+            short shortNum = 23134;
+            sbyte sByteNum = 14;
+            bool isPrimitive = true;
+            float floatNum = 1343.43F;
+            double doubleNum = 1413534.4412133;
+            decimal decimalNum = 1345.53M;
+            string text = "I Control Text";
+            string textNumber = "134243";
+            var parsedNum = Int32.Parse(textNumber);
+
+            Console.WriteLine("Printing integer: {0}", integer);
+            Console.WriteLine("Printing byte: {0}", byteNum);
+            Console.WriteLine("Printing long: {0}", longnum);
+            Console.WriteLine("Printing short: {0}", shortNum);
+            Console.WriteLine("Printing sbyte: {0}", sByteNum);
+            Console.WriteLine("Printing bool: {0}", isPrimitive);
+            Console.WriteLine("Printing float: {0}", floatNum);
+            Console.WriteLine("Printing double: {0}", doubleNum);
+            Console.WriteLine("Printing decimal: {0}", decimalNum);
+            Console.WriteLine("Printing text string: {0}", text);
+            Console.WriteLine("Printing number string: {0}", textNumber);
+            Console.WriteLine("Printing parsed number string plus 100000: {0}", parsedNum+100000);
+            */
+
+            // ============================================================
+            // ======================= Constants ==========================
+            // ============================================================
+            /*
+            const double PI = 3.14159265359;
+            const int weeks = 52, months = 12;
+
+            // Create constant of type string with a birthday.
+            const string birthday = "12-11-1985";
+            */
         }
-    }
+    }   
 }
