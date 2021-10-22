@@ -125,29 +125,9 @@ namespace Making_Decisions
             that registering and logging in, happen in the same execution of it.
             User If statements and User Input and Methods to solve the challenge.
             */
-            // Will register here.
-            Console.WriteLine("Register to create an account.");
-            Console.WriteLine();
-            Console.Write("Enter a new username: ");
-            string userName = Console.ReadLine();
-            Console.Write("Enter a new password: ");
-            string passWord = Console.ReadLine();
-            if(userName != "" && passWord != "")
-            {
-                Console.WriteLine("Registered successfully. Your username is {0}.", userName);
-                LogIn(userName, passWord);
-            } else if(userName == "" && passWord != "")
-            {
-                Console.WriteLine("Username is empty. Must enter a username to register.");
-            }
-            else if (userName != "" && passWord == "")
-            {
-                Console.WriteLine("Password is empty. Must enter a password to register.");
-            }
-            else
-            {
-                Console.WriteLine("Please provide a username and password to register.");
-            }
+            Register();
+            LogIn();
+            
 
 
 
@@ -156,7 +136,36 @@ namespace Making_Decisions
             // ==========================================================================================
             // ==========================================================================================
         }
-        public static void LogIn(string registeredName, string registeredPw)
+        static string registeredName;
+        static string registeredPw;
+
+        public static void Register()
+        {
+            Console.WriteLine("Register to create an account.");
+            Console.WriteLine();
+            Console.Write("Enter a new username: ");
+            registeredName = Console.ReadLine();
+            Console.Write("Enter a new password: ");
+            registeredPw = Console.ReadLine();
+            if (registeredName != "" && registeredPw != "")
+            {
+                Console.WriteLine("Registered successfully. Your username is {0}.", registeredName);
+            }
+            else if (registeredName == "" && registeredPw != "")
+            {
+                Console.WriteLine("Username is empty. Must enter a username to register.");
+            }
+            else if (registeredName != "" && registeredPw == "")
+            {
+                Console.WriteLine("Password is empty. Must enter a password to register.");
+            }
+            else
+            {
+                Console.WriteLine("Please provide a username and password to register.");
+            }
+        }
+
+        public static void LogIn()
         {
             Console.WriteLine();
             Console.WriteLine("Logging In");
