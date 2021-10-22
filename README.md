@@ -1,3 +1,5 @@
 # complete_CSharp_masterclass
 
-This repository will hold each course exercise and proyect done using the complete C# Masterclass
+
+## About
+This repository will hold each course exercise and project done using the complete C# Masterclass.
