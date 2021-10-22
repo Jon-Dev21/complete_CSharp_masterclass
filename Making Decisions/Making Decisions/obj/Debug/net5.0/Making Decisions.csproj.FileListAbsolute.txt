@@ -1,0 +1,16 @@
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Making Decisions\Making Decisions\bin\Debug\net5.0\Making Decisions.exe
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Making Decisions\Making Decisions\bin\Debug\net5.0\Making Decisions.deps.json
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Making Decisions\Making Decisions\bin\Debug\net5.0\Making Decisions.runtimeconfig.json
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Making Decisions\Making Decisions\bin\Debug\net5.0\Making Decisions.runtimeconfig.dev.json
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Making Decisions\Making Decisions\bin\Debug\net5.0\Making Decisions.dll
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Making Decisions\Making Decisions\bin\Debug\net5.0\ref\Making Decisions.dll
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Making Decisions\Making Decisions\bin\Debug\net5.0\Making Decisions.pdb
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Making Decisions\Making Decisions\obj\Debug\net5.0\Making Decisions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Making Decisions\Making Decisions\obj\Debug\net5.0\Making Decisions.AssemblyInfoInputs.cache
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Making Decisions\Making Decisions\obj\Debug\net5.0\Making Decisions.AssemblyInfo.cs
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Making Decisions\Making Decisions\obj\Debug\net5.0\Making Decisions.csproj.CoreCompileInputs.cache
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Making Decisions\Making Decisions\obj\Debug\net5.0\Making Decisions.dll
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Making Decisions\Making Decisions\obj\Debug\net5.0\ref\Making Decisions.dll
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Making Decisions\Making Decisions\obj\Debug\net5.0\Making Decisions.pdb
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Making Decisions\Making Decisions\obj\Debug\net5.0\Making Decisions.genruntimeconfig.cache
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Making Decisions\Making Decisions\obj\Debug\net5.0\Making Decisions.csproj.AssemblyReference.cache
