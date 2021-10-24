@@ -1,0 +1,16 @@
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Object Oriented Programming\Object Oriented Programming\bin\Debug\net5.0\Object Oriented Programming.exe
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Object Oriented Programming\Object Oriented Programming\bin\Debug\net5.0\Object Oriented Programming.deps.json
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Object Oriented Programming\Object Oriented Programming\bin\Debug\net5.0\Object Oriented Programming.runtimeconfig.json
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Object Oriented Programming\Object Oriented Programming\bin\Debug\net5.0\Object Oriented Programming.runtimeconfig.dev.json
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Object Oriented Programming\Object Oriented Programming\bin\Debug\net5.0\Object Oriented Programming.dll
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Object Oriented Programming\Object Oriented Programming\bin\Debug\net5.0\ref\Object Oriented Programming.dll
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Object Oriented Programming\Object Oriented Programming\bin\Debug\net5.0\Object Oriented Programming.pdb
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Object Oriented Programming\Object Oriented Programming\obj\Debug\net5.0\Object Oriented Programming.csproj.AssemblyReference.cache
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Object Oriented Programming\Object Oriented Programming\obj\Debug\net5.0\Object Oriented Programming.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Object Oriented Programming\Object Oriented Programming\obj\Debug\net5.0\Object Oriented Programming.AssemblyInfoInputs.cache
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Object Oriented Programming\Object Oriented Programming\obj\Debug\net5.0\Object Oriented Programming.AssemblyInfo.cs
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Object Oriented Programming\Object Oriented Programming\obj\Debug\net5.0\Object Oriented Programming.csproj.CoreCompileInputs.cache
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Object Oriented Programming\Object Oriented Programming\obj\Debug\net5.0\Object Oriented Programming.dll
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Object Oriented Programming\Object Oriented Programming\obj\Debug\net5.0\ref\Object Oriented Programming.dll
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Object Oriented Programming\Object Oriented Programming\obj\Debug\net5.0\Object Oriented Programming.pdb
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Object Oriented Programming\Object Oriented Programming\obj\Debug\net5.0\Object Oriented Programming.genruntimeconfig.cache
