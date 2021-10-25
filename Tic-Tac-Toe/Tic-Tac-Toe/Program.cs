@@ -279,7 +279,6 @@ namespace Tic_Tac_Toe
             } else
             {
                 isOver = false;
-                return;
             }
 
             // ==============================================================================
@@ -385,7 +384,6 @@ namespace Tic_Tac_Toe
             else
             {
                 isOver = false;
-                return;
             }
         }
 
@@ -467,12 +465,12 @@ namespace Tic_Tac_Toe
                 else
                 {
                     string playerMarker = player == 1 ? "X" : "O";
-                    errorMessage = "\nThat spot is already taken. Choose another spot to place your " +playerMarker+".\n";
+                    errorMessage = "\nThat spot is already taken. Choose another spot to place your " +playerMarker+".";
                     return false;
                 }                
             else
             {
-                errorMessage = "\nInvalid input. Please enter a number between 1 and 9.\n";
+                errorMessage = "\nInvalid input. Please enter a number between 1 and 9.";
                 return false;
             }   
         }
