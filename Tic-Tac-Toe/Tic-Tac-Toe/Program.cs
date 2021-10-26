@@ -130,7 +130,7 @@ namespace Tic_Tac_Toe
             {
                 PlayTurn();
             }
-            Console.WriteLine("Game over. \nWinner is {0}", winner);
+            Console.WriteLine(GameOverMessage);
             AskPlayAgain();
             
         }
@@ -196,6 +196,7 @@ namespace Tic_Tac_Toe
                  */
                 isOver = true;
                 winner = "Player 1";
+                GameOverMessage = "\nGame over. \nWinner is " + winner + ".\n";
                 return;
             } else if (grid[1, 0] == "X" && grid[1, 1] == "X" && grid[1, 2] == "X")
             {
@@ -207,6 +208,8 @@ namespace Tic_Tac_Toe
                  */
                 isOver = true;
                 winner = "Player 1";
+                GameOverMessage = "\nGame over. \nWinner is " + winner + ".\n";
+                return;
             } else if (grid[2, 0] == "X" && grid[2, 1] == "X" && grid[2, 2] == "X")
             {
                 // If horizontal win in third row
@@ -217,6 +220,8 @@ namespace Tic_Tac_Toe
                  */
                 isOver = true;
                 winner = "Player 1";
+                GameOverMessage = "\nGame over. \nWinner is " + winner + ".\n";
+                return;
             }
             else if (grid[0, 0] == "X" && grid[1, 0] == "X" && grid[2, 0] == "X")
             {
@@ -228,6 +233,7 @@ namespace Tic_Tac_Toe
                  */
                 isOver = true;
                 winner = "Player 1";
+                GameOverMessage = "\nGame over. \nWinner is " + winner + ".\n";
                 return;
             }
             else if (grid[0, 1] == "X" && grid[1, 1] == "X" && grid[2, 1] == "X")
@@ -240,6 +246,7 @@ namespace Tic_Tac_Toe
                  */
                 isOver = true;
                 winner = "Player 1";
+                GameOverMessage = "\nGame over. \nWinner is " + winner + ".\n";
                 return;
             }
             else if (grid[0, 2] == "X" && grid[1, 2] == "X" && grid[2, 2] == "X")
@@ -252,6 +259,8 @@ namespace Tic_Tac_Toe
                  */
                 isOver = true;
                 winner = "Player 1";
+                GameOverMessage = "\nGame over. \nWinner is " + winner + ".\n";
+                return;
             }
             else if (grid[0, 0] == "X" && grid[1, 1] == "X" && grid[2, 2] == "X")
             {
@@ -263,6 +272,7 @@ namespace Tic_Tac_Toe
                  */
                 isOver = true;
                 winner = "Player 1";
+                GameOverMessage = "\nGame over. \nWinner is " + winner + ".\n";
                 return;
             }
             else if (grid[0, 2] == "X" && grid[1, 1] == "X" && grid[2, 0] == "X")
@@ -275,6 +285,7 @@ namespace Tic_Tac_Toe
                  */
                 isOver = true;
                 winner = "Player 1";
+                GameOverMessage = "\nGame over. \nWinner is " + winner + ".\n";
                 return;
             } else
             {
@@ -295,6 +306,7 @@ namespace Tic_Tac_Toe
                  */
                 isOver = true;
                 winner = "Player 2";
+                GameOverMessage = "\nGame over. \nWinner is " + winner + ".\n";
                 return;
             }
             else if (grid[1, 0] == "O" && grid[1, 1] == "O" && grid[1, 2] == "O")
@@ -307,6 +319,7 @@ namespace Tic_Tac_Toe
                  */
                 isOver = true;
                 winner = "Player 2";
+                GameOverMessage = "\nGame over. \nWinner is " + winner + ".\n";
                 return;
             }
             else if (grid[2, 0] == "O" && grid[2, 1] == "O" && grid[2, 2] == "O")
@@ -319,6 +332,7 @@ namespace Tic_Tac_Toe
                  */
                 isOver = true;
                 winner = "Player 2";
+                GameOverMessage = "\nGame over. \nWinner is " + winner + ".\n";
                 return;
             }
             else if (grid[0, 0] == "O" && grid[1, 0] == "O" && grid[2, 0] == "O")
@@ -331,6 +345,7 @@ namespace Tic_Tac_Toe
                  */
                 isOver = true;
                 winner = "Player 2";
+                GameOverMessage = "\nGame over. \nWinner is " + winner + ".\n";
                 return;
             }
             else if (grid[0, 1] == "O" && grid[1, 1] == "O" && grid[2, 1] == "O")
@@ -343,6 +358,7 @@ namespace Tic_Tac_Toe
                  */
                 isOver = true;
                 winner = "Player 2";
+                GameOverMessage = "\nGame over. \nWinner is " + winner + ".\n";
                 return;
             }
             else if (grid[0, 2] == "O" && grid[1, 2] == "O" && grid[2, 2] == "O")
@@ -355,6 +371,7 @@ namespace Tic_Tac_Toe
                  */
                 isOver = true;
                 winner = "Player 2";
+                GameOverMessage = "\nGame over. \nWinner is " + winner + ".\n";
                 return;
             }
             else if (grid[0, 0] == "O" && grid[1, 1] == "O" && grid[2, 2] == "O")
@@ -367,6 +384,7 @@ namespace Tic_Tac_Toe
                  */
                 isOver = true;
                 winner = "Player 2";
+                GameOverMessage = "\nGame over. \nWinner is " + winner + ".\n";
                 return;
             }
             else if (grid[0, 2] == "O" && grid[1, 1] == "O" && grid[2, 0] == "O")
@@ -379,9 +397,21 @@ namespace Tic_Tac_Toe
                  */
                 isOver = true;
                 winner = "Player 2";
+                GameOverMessage = "\nGame over. \nWinner is " + winner + ".\n";
                 return;
             }
             else
+            {
+                isOver = false;
+            }
+
+            // Check if no one won.
+            if ((grid[0, 0] == "O" || grid[0, 0] == "X" )&& (grid[0, 1] == "O" || grid[0, 1] == "X") && (grid[0, 2] == "O" || grid[0, 2] == "X") && (grid[1, 0] == "O" || grid[1, 0] == "X" )&& (grid[1, 1] == "O" || grid[1, 1] == "X") && (grid[1, 2] == "O" || grid[1, 2] == "X") && (grid[2, 0] == "O" || grid[2, 0] == "X") && (grid[2, 1] == "O" || grid[2, 1] == "X") && (grid[2, 2] == "O" || grid[2, 2] == "X"))
+            {
+                isOver = true;
+                GameOverMessage = "Game Over\nNo one wins. \n";
+                return;
+            } else
             {
                 isOver = false;
             }
@@ -503,5 +533,10 @@ namespace Tic_Tac_Toe
         /// This message is printed whenever there is an input error during the game.
         /// </summary>
         static string errorMessage = "";
+
+        /// <summary>
+        /// This variable is used to print the Game Over message when either someone wins or no one wins.
+        /// </summary>
+        static string GameOverMessage = "";
     }
 }
