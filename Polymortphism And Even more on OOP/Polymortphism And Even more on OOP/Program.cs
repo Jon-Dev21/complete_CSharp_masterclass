@@ -250,11 +250,11 @@ namespace Polymortphism_And_Even_more_on_OOP
 
             // Creating new TextFile2.
             // WriteAllLines(string path, string[] lines)
-            //File.WriteAllLines(@"C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Polymortphism And Even more on OOP\Polymortphism And Even more on OOP\TextFile\TextFile2.txt", lines);
+            //File.WriteAllLines(@"\TextFile\TextFile2.txt", lines);
 
             // Challenge: Write the high scores of 3 users into an array
             string[] highScores = {"5","155","123" };
-            //File.WriteAllLines(@"C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Polymortphism And Even more on OOP\Polymortphism And Even more on OOP\TextFile\highscores.txt", highScores);
+            //File.WriteAllLines(@"\TextFile\highscores.txt", highScores);
 
 
             // METHOD 2
@@ -265,10 +265,10 @@ namespace Polymortphism_And_Even_more_on_OOP
             //Console.Write("Enter some text for the file {0}: ", fileName);
             //string input = Console.ReadLine();
 
-            //File.WriteAllText(@"C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Polymortphism And Even more on OOP\Polymortphism And Even more on OOP\TextFile\"+fileName, input);
+            //File.WriteAllText(@"\TextFile\"+fileName, input);
 
             // METHOD 3 (Streamline)
-            //using (StreamWriter file = new StreamWriter(@"C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Polymortphism And Even more on OOP\Polymortphism And Even more on OOP\TextFile\myStreamWriterText2.txt"))
+            //using (StreamWriter file = new StreamWriter(@"\TextFile\myStreamWriterText2.txt"))
             //{
             //    //foreach (string line in lines)
             //    //{
