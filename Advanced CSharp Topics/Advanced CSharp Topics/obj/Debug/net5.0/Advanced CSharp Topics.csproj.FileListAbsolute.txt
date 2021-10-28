@@ -1,0 +1,16 @@
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Advanced CSharp Topics\Advanced CSharp Topics\bin\Debug\net5.0\Advanced CSharp Topics.exe
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Advanced CSharp Topics\Advanced CSharp Topics\bin\Debug\net5.0\Advanced CSharp Topics.deps.json
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Advanced CSharp Topics\Advanced CSharp Topics\bin\Debug\net5.0\Advanced CSharp Topics.runtimeconfig.json
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Advanced CSharp Topics\Advanced CSharp Topics\bin\Debug\net5.0\Advanced CSharp Topics.runtimeconfig.dev.json
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Advanced CSharp Topics\Advanced CSharp Topics\bin\Debug\net5.0\Advanced CSharp Topics.dll
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Advanced CSharp Topics\Advanced CSharp Topics\bin\Debug\net5.0\ref\Advanced CSharp Topics.dll
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Advanced CSharp Topics\Advanced CSharp Topics\bin\Debug\net5.0\Advanced CSharp Topics.pdb
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Advanced CSharp Topics\Advanced CSharp Topics\obj\Debug\net5.0\Advanced CSharp Topics.csproj.AssemblyReference.cache
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Advanced CSharp Topics\Advanced CSharp Topics\obj\Debug\net5.0\Advanced CSharp Topics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Advanced CSharp Topics\Advanced CSharp Topics\obj\Debug\net5.0\Advanced CSharp Topics.AssemblyInfoInputs.cache
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Advanced CSharp Topics\Advanced CSharp Topics\obj\Debug\net5.0\Advanced CSharp Topics.AssemblyInfo.cs
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Advanced CSharp Topics\Advanced CSharp Topics\obj\Debug\net5.0\Advanced CSharp Topics.csproj.CoreCompileInputs.cache
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Advanced CSharp Topics\Advanced CSharp Topics\obj\Debug\net5.0\Advanced CSharp Topics.dll
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Advanced CSharp Topics\Advanced CSharp Topics\obj\Debug\net5.0\ref\Advanced CSharp Topics.dll
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Advanced CSharp Topics\Advanced CSharp Topics\obj\Debug\net5.0\Advanced CSharp Topics.pdb
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Advanced CSharp Topics\Advanced CSharp Topics\obj\Debug\net5.0\Advanced CSharp Topics.genruntimeconfig.cache
