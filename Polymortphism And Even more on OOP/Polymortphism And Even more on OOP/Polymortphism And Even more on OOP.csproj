@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Polymortphism_And_Even_more_on_OOP</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="TextFile\" />
+  </ItemGroup>
+
+</Project>

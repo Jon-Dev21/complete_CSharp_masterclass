@@ -1,0 +1,16 @@
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Polymortphism And Even more on OOP\Polymortphism And Even more on OOP\bin\Debug\net5.0\Polymortphism And Even more on OOP.exe
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Polymortphism And Even more on OOP\Polymortphism And Even more on OOP\bin\Debug\net5.0\Polymortphism And Even more on OOP.deps.json
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Polymortphism And Even more on OOP\Polymortphism And Even more on OOP\bin\Debug\net5.0\Polymortphism And Even more on OOP.runtimeconfig.json
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Polymortphism And Even more on OOP\Polymortphism And Even more on OOP\bin\Debug\net5.0\Polymortphism And Even more on OOP.runtimeconfig.dev.json
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Polymortphism And Even more on OOP\Polymortphism And Even more on OOP\bin\Debug\net5.0\Polymortphism And Even more on OOP.dll
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Polymortphism And Even more on OOP\Polymortphism And Even more on OOP\bin\Debug\net5.0\ref\Polymortphism And Even more on OOP.dll
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Polymortphism And Even more on OOP\Polymortphism And Even more on OOP\bin\Debug\net5.0\Polymortphism And Even more on OOP.pdb
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Polymortphism And Even more on OOP\Polymortphism And Even more on OOP\obj\Debug\net5.0\Polymortphism And Even more on OOP.csproj.AssemblyReference.cache
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Polymortphism And Even more on OOP\Polymortphism And Even more on OOP\obj\Debug\net5.0\Polymortphism And Even more on OOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Polymortphism And Even more on OOP\Polymortphism And Even more on OOP\obj\Debug\net5.0\Polymortphism And Even more on OOP.AssemblyInfoInputs.cache
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Polymortphism And Even more on OOP\Polymortphism And Even more on OOP\obj\Debug\net5.0\Polymortphism And Even more on OOP.AssemblyInfo.cs
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Polymortphism And Even more on OOP\Polymortphism And Even more on OOP\obj\Debug\net5.0\Polymortphism And Even more on OOP.csproj.CoreCompileInputs.cache
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Polymortphism And Even more on OOP\Polymortphism And Even more on OOP\obj\Debug\net5.0\Polymortphism And Even more on OOP.dll
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Polymortphism And Even more on OOP\Polymortphism And Even more on OOP\obj\Debug\net5.0\ref\Polymortphism And Even more on OOP.dll
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Polymortphism And Even more on OOP\Polymortphism And Even more on OOP\obj\Debug\net5.0\Polymortphism And Even more on OOP.pdb
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Polymortphism And Even more on OOP\Polymortphism And Even more on OOP\obj\Debug\net5.0\Polymortphism And Even more on OOP.genruntimeconfig.cache
