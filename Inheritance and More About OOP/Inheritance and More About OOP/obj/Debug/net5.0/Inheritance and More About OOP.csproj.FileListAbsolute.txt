@@ -1,0 +1,16 @@
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Inheritance and More About OOP\Inheritance and More About OOP\bin\Debug\net5.0\Inheritance and More About OOP.exe
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Inheritance and More About OOP\Inheritance and More About OOP\bin\Debug\net5.0\Inheritance and More About OOP.deps.json
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Inheritance and More About OOP\Inheritance and More About OOP\bin\Debug\net5.0\Inheritance and More About OOP.runtimeconfig.json
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Inheritance and More About OOP\Inheritance and More About OOP\bin\Debug\net5.0\Inheritance and More About OOP.runtimeconfig.dev.json
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Inheritance and More About OOP\Inheritance and More About OOP\bin\Debug\net5.0\Inheritance and More About OOP.dll
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Inheritance and More About OOP\Inheritance and More About OOP\bin\Debug\net5.0\ref\Inheritance and More About OOP.dll
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Inheritance and More About OOP\Inheritance and More About OOP\bin\Debug\net5.0\Inheritance and More About OOP.pdb
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Inheritance and More About OOP\Inheritance and More About OOP\obj\Debug\net5.0\Inheritance and More About OOP.csproj.AssemblyReference.cache
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Inheritance and More About OOP\Inheritance and More About OOP\obj\Debug\net5.0\Inheritance and More About OOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Inheritance and More About OOP\Inheritance and More About OOP\obj\Debug\net5.0\Inheritance and More About OOP.AssemblyInfoInputs.cache
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Inheritance and More About OOP\Inheritance and More About OOP\obj\Debug\net5.0\Inheritance and More About OOP.AssemblyInfo.cs
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Inheritance and More About OOP\Inheritance and More About OOP\obj\Debug\net5.0\Inheritance and More About OOP.csproj.CoreCompileInputs.cache
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Inheritance and More About OOP\Inheritance and More About OOP\obj\Debug\net5.0\Inheritance and More About OOP.dll
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Inheritance and More About OOP\Inheritance and More About OOP\obj\Debug\net5.0\ref\Inheritance and More About OOP.dll
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Inheritance and More About OOP\Inheritance and More About OOP\obj\Debug\net5.0\Inheritance and More About OOP.pdb
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Inheritance and More About OOP\Inheritance and More About OOP\obj\Debug\net5.0\Inheritance and More About OOP.genruntimeconfig.cache
