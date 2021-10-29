@@ -6,9 +6,9 @@ namespace ArgsCMD
     {
         static void Main(string[] args)
         {
-            // =============================================
-            // ============= Main Args - Pt. 1 =============
-            // =============================================
+            // =================================================
+            // ============= Main Args - Pt. 1 & 2 =============
+            // =================================================
 
             // The args array cannot be null. So it's safe to access the Length property without checking for null.
             // We check args.Length to avoid IndexOutOfBounds errors. If length is 0, no arguments were provided.
@@ -62,6 +62,7 @@ namespace ArgsCMD
             if (args.Length != 3)
             {
                 Console.WriteLine("Too many or too little arguments passed, please use the help command for instructions.");
+                PrintArgs(args);
                 // Pause
                 Console.ReadKey();
                 // Quit app
@@ -75,6 +76,7 @@ namespace ArgsCMD
                 if (!(isNum1 || isNum2))
                 {
                     Console.WriteLine("Invalid arguments passed. Arguments must be numbers. \nPlease use the help command for instructions.");
+                    PrintArgs(args);
                     // Pause
                     Console.ReadKey();
                     // Quit app
@@ -92,29 +94,38 @@ namespace ArgsCMD
                             break;
                         default:
                             Console.WriteLine("Invalid arguments passed. Arguments must be numbers. \nPlease use the help command for instructions.");
+                            PrintArgs(args);
                             break;
                     }
                 }
             }
 
 
-            
-            
+
+
 
             // Attempting to run this program in the cmd.
             // TO run program in CMD, go to "ProyectPath\bin\Debug\net5.0" and type the name
             // of the exe file (ArgsCmd.exe). To pass arguments, type them alongside the .exe file like so
             // Example: ArgsCmd.exe Param1 Param2 Param3
-            
+
             // Run successful.
 
 
             //Console.WriteLine("Hello {0}", args[0]);
             //Console.WriteLine("Hello {0}", args[1]);
 
-            // =============================================
-            // ============= Main Args - Pt. 2 =============
-            // =============================================
+            Console.WriteLine("Printing args list");
+            PrintArgs(args);
+
+        }
+        public static void PrintArgs(string[] args)
+        {
+            int count = 0;
+            foreach (string arg in args)
+            {
+                Console.WriteLine("Argument {0}: {1}", ++count, arg);
+            }
         }
     }
 }
