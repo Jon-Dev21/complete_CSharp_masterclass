@@ -309,54 +309,152 @@ namespace Advanced_CSharp_Topics
             // =============== DateTime Class ================
             // ===============================================
 
-            DateTime dateTime = new DateTime(1996, 12, 11);
+            //DateTime dateTime = new DateTime(1986, 12, 12);
 
-            Console.WriteLine("My birthday is {0}!", dateTime);
+            //Console.WriteLine("My birthday is {0}!", dateTime);
 
-            // Write date of today
-            Console.WriteLine("Today: " + DateTime.Today);
+            //// Write date of today
+            //Console.WriteLine("Today: " + DateTime.Today);
 
-            // Write current time on screen
-            Console.WriteLine("Now: " + DateTime.Now);
+            //// Write current time on screen
+            //Console.WriteLine("Now: " + DateTime.Now);
 
-            // Print tomorrow
-            Console.WriteLine("Tomorrow: {0}", GetTomorrow());
+            //// Print tomorrow
+            //Console.WriteLine("Tomorrow: {0}", GetTomorrow());
 
-            // Challenge. Write which day of the week we have
-            Console.WriteLine("Day of week: {0}", DateTime.Today.DayOfWeek);
+            //// Challenge. Write which day of the week we have
+            //Console.WriteLine("Day of week: {0}", DateTime.Today.DayOfWeek);
 
-            // Print the first day of a specific year.
-            int year = 2022;
-            Console.WriteLine("First day of year {0}: {1}", year, GetFirstDayOfYear(year).ToString());
+            //// Print the first day of a specific year.
+            //int year = 2022;
+            //Console.WriteLine("First day of year {0}: {1}", year, GetFirstDayOfYear(year).ToString());
 
-            int days = DateTime.DaysInMonth(2000, 2);
-            Console.WriteLine("Days in Feb 2000: {0}", days);
-            days = DateTime.DaysInMonth(2001, 2);
-            Console.WriteLine("Days in Feb 2001: {0}", days);
-            days = DateTime.DaysInMonth(2000, 2);
-            Console.WriteLine("Days in Feb 2004: {0}", days);
+            //int days = DateTime.DaysInMonth(2000, 2);
+            //Console.WriteLine("Days in Feb 2000: {0}", days);
+            //days = DateTime.DaysInMonth(2001, 2);
+            //Console.WriteLine("Days in Feb 2001: {0}", days);
+            //days = DateTime.DaysInMonth(2000, 2);
+            //Console.WriteLine("Days in Feb 2004: {0}", days);
 
-            DateTime now = DateTime.Now;
-            Console.WriteLine("Minute: {0}", now.Minute);
+            //DateTime now = DateTime.Now;
+            //Console.WriteLine("Minute: {0}", now.Minute);
 
-            // Display the time as so: x o'clock and y minutes and z seconds
-            Console.WriteLine("{0} o'clock and {1} minutes and {2} seconds.", now.Hour - 12, now.Minute, now.Second);
-
-
-            Console.WriteLine("Write a date in this format: yyyy-mm-dd");
-            string input = Console.ReadLine();
-            Console.WriteLine();
-            if(DateTime.TryParse(input, out dateTime))
-            {
-                Console.WriteLine(dateTime);
-                TimeSpan daysPassed = now.Subtract(dateTime);
-                Console.WriteLine("Days lived: {0} Days", daysPassed.Days);
-            } else
-            {
-                Console.WriteLine("Wrong input");
-            }
+            //// Display the time as so: x o'clock and y minutes and z seconds
+            //Console.WriteLine("{0} o'clock and {1} minutes and {2} seconds.", now.Hour - 12, now.Minute, now.Second);
 
 
+            //Console.WriteLine("Write a date in this format: yyyy-mm-dd");
+            //string input = Console.ReadLine();
+            //Console.WriteLine();
+            //if(DateTime.TryParse(input, out dateTime))
+            //{
+            //    Console.WriteLine(dateTime);
+            //    TimeSpan daysPassed = now.Subtract(dateTime);
+            //    Console.WriteLine("Days lived: {0} Days", daysPassed.Days);
+            //} else
+            //{
+            //    Console.WriteLine("Wrong input");
+            //}
+
+            // ===============================================
+            // ================== Nullables ==================
+            // ===============================================
+
+            // Nullables are variables that can have a value or don't have a value.
+            // To create a nullable, add a question mark after the variable data type
+            //Nullable<Int32> nullableNum = new Nullable<Int32>();
+
+            //nullableNum = 34;
+            //Console.WriteLine(nullableNum);
+
+            //// Creating a nullable.
+            //int? nullableNum2 = null;
+            //// You can't assign null to an integer but you can assign null to a nullable integer.
+            ////int num = null;
+
+            //Console.WriteLine(nullableNum2);
+
+            //double? num3 = new Double?();
+            //double? num4 = 3.14157;
+
+            //bool? boolVal = new bool?();
+
+            //Console.WriteLine("Our nullable nums are: {0}, {1}, {2}, {3}", nullableNum, nullableNum2, num3, num4);
+            //Console.WriteLine("Nullable boolean value is {0}", boolVal);
+
+            //bool? isMale = null;
+            //if (isMale == true)
+            //{
+            //    Console.WriteLine("User is male");
+            //} else if (isMale == false)
+            //{
+            //    Console.WriteLine("User is female");
+            //} else
+            //{
+            //    Console.WriteLine("No gender chosen");
+            //}
+
+            //// Convert nullables into non-nullable types.
+
+            //double? num6 = 13.1;
+            //double? num7 = null;
+            //double num8;
+
+            //if (num6 == null)
+            //{
+            //    num8 = 0.0;
+            //} else
+            //{
+            //    // Casting nullable double num6 into a double.
+            //    num8 = (double)num6;
+            //}
+
+            //Console.WriteLine("Value of num8 is {0}", num8);
+
+            //// NULL COALLESSING OPERATOR. Used to convert from nullable to non-nullable.
+            //// value ?? 10 (This statement means that if value is null, returns whatever value is at the right side.
+            //// IN this case, 10.
+            //num8 = num6 ?? 8.53;
+            //Console.WriteLine("Num8 = num6 ?? 8.53: {0}", num8);
+            //num8 = num7 ?? 8.53;
+            //Console.WriteLine("Num8 = num7 ?? 8.53: {0}", num8);
+
+
+            // ===============================================
+            // ============== Garbage Collector ==============
+            // ===============================================
+
+            // Garbage collection is used in most programming languages.
+            // It is done either automatic or manually.
+            // The .Net Framework provides an automatic memory management
+
+            // The framework takes care of reclaiming memory for reuse in the system, once
+            // objects are no longer being used.
+
+            // Example 
+            // public void myFunction {
+            //    Human denis = new Human(); // Allocates Memory
+            //    denis.teach();
+            //    int age = denis.age;
+            //    denis.getOlder();
+            //
+            // }  Here the function ends, the Object "denis" goes out of scope and there
+            //    are no references to "denis" left
+
+            // WHAT YOU NEED TO KNOW ABOUT THE C# GARBAGE COLLECTOR
+
+            // - You don't have to manually call the garbage collector (but you can).
+            // - The garbage collector requires processing power.
+            // - The GC's goal is to free up memory but not use too much processing power.
+            // - Memory isn't necessary reclaimed right away.
+            // - You can implement the "finalizer" method to execute code just before an object
+            //   is released from memory by the GC.
+
+            // WHEN TO USE THE GARBAGE COLLECTOR
+
+            // - When the system has low physical memory.
+            // - When the memory allocated exceed a pre-set threshold.
+            // - When GC.Collect is called. Even though this is a tricky method.
         }
 
         static DateTime GetTomorrow()
