@@ -1,0 +1,16 @@
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Events And Delegates\Events And Delegates\bin\Debug\net5.0\Events And Delegates.exe
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Events And Delegates\Events And Delegates\bin\Debug\net5.0\Events And Delegates.deps.json
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Events And Delegates\Events And Delegates\bin\Debug\net5.0\Events And Delegates.runtimeconfig.json
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Events And Delegates\Events And Delegates\bin\Debug\net5.0\Events And Delegates.runtimeconfig.dev.json
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Events And Delegates\Events And Delegates\bin\Debug\net5.0\Events And Delegates.dll
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Events And Delegates\Events And Delegates\bin\Debug\net5.0\ref\Events And Delegates.dll
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Events And Delegates\Events And Delegates\bin\Debug\net5.0\Events And Delegates.pdb
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Events And Delegates\Events And Delegates\obj\Debug\net5.0\Events And Delegates.csproj.AssemblyReference.cache
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Events And Delegates\Events And Delegates\obj\Debug\net5.0\Events And Delegates.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Events And Delegates\Events And Delegates\obj\Debug\net5.0\Events And Delegates.AssemblyInfoInputs.cache
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Events And Delegates\Events And Delegates\obj\Debug\net5.0\Events And Delegates.AssemblyInfo.cs
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Events And Delegates\Events And Delegates\obj\Debug\net5.0\Events And Delegates.csproj.CoreCompileInputs.cache
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Events And Delegates\Events And Delegates\obj\Debug\net5.0\Events And Delegates.dll
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Events And Delegates\Events And Delegates\obj\Debug\net5.0\ref\Events And Delegates.dll
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Events And Delegates\Events And Delegates\obj\Debug\net5.0\Events And Delegates.pdb
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Events And Delegates\Events And Delegates\obj\Debug\net5.0\Events And Delegates.genruntimeconfig.cache
