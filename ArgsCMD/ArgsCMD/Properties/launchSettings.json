@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ArgsCMD": {
+      "commandName": "Project",
+      "commandLineArgs": "help"
+    }
+  }
+}
