@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text.RegularExpressions;
 
 namespace Advanced_CSharp_Topics
 {
@@ -237,6 +238,135 @@ namespace Advanced_CSharp_Topics
                 modifiers to work properly." If you find the behaviour of VS to be different than in the Video,
                 please check out this post by Derek in the Q&A section of the Regular Expression Video.
              */
+
+            // Regular expressions. Patterns that the regular expression engine attempts to match in input text.
+            // A pattern consists of one or more character literals, operators, or constructs.
+
+            // Added sample.txt from resources.
+            // Press ctrl+F and search for the regular expression icon.
+
+            // Regex quick reference: https://docs.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-language-quick-reference
+
+            // 
+            /*
+
+            USING SAMPLE.TXT TO MATCH REGULAR EXPRESSIONS.
+
+             Regex I created to get these numbers: [+\d]\d*[/]\d*
+             Another regex I Created to get these numbers: 0\d{3}/\d{8}|\+49\d{3}/\d{8}|0049\d{3}/\d{8} 
+
+             0175/12345678
+             +49165/12312347
+             0049165/12312347
+             
+             Regex created by instructor: (\+49)|0049|0?1(6|7)\d/\d{8}
+
+            ==================================================================================================
+
+            Regex I created to get all Names: Mr\.?\s\w+|Ms\.?\s\w+
+
+            Mr. Panjuta
+            Mr Muller
+            Mr Robertson
+            Mr. G
+            Ms Smith
+            Ms Jackson
+
+            ==================================================================================================
+            Challenge. Create a regex to get all website links
+
+            https://www.tutorials.eu
+            https://tutorials.eu
+            http://www.tutorials.eu
+            http://tutorials.eu
+
+            My Regex: https://(www.)?\w+.eu|http://(www.)?\w+.eu
+            Instructor Regex: https?://(www.)?\w+.eu
+             */
+
+            // Using regular expressions in C#.
+
+            // using System.Text.RegularExpressions;
+
+            //string pattern = @"\w+";
+            //Regex regex = new Regex(pattern);
+
+            //string testString = "Hi there, my number is 134163";
+
+            //// Match collection tries to match the regex to the test string
+            //MatchCollection matchCollection = regex.Matches(testString);
+
+            //Console.WriteLine("{0} hits found:\n{1}\n", matchCollection.Count, testString);
+
+            //foreach (Match hit in matchCollection)
+            //{
+            //    // Stores set of captured groups
+            //    GroupCollection group = hit.Groups;
+            //    Console.WriteLine("{0} found at {1}", group[0].Value, group[0].Index);
+            //}
+
+            // ===============================================
+            // =============== DateTime Class ================
+            // ===============================================
+
+            DateTime dateTime = new DateTime(1996, 12, 11);
+
+            Console.WriteLine("My birthday is {0}!", dateTime);
+
+            // Write date of today
+            Console.WriteLine("Today: " + DateTime.Today);
+
+            // Write current time on screen
+            Console.WriteLine("Now: " + DateTime.Now);
+
+            // Print tomorrow
+            Console.WriteLine("Tomorrow: {0}", GetTomorrow());
+
+            // Challenge. Write which day of the week we have
+            Console.WriteLine("Day of week: {0}", DateTime.Today.DayOfWeek);
+
+            // Print the first day of a specific year.
+            int year = 2022;
+            Console.WriteLine("First day of year {0}: {1}", year, GetFirstDayOfYear(year).ToString());
+
+            int days = DateTime.DaysInMonth(2000, 2);
+            Console.WriteLine("Days in Feb 2000: {0}", days);
+            days = DateTime.DaysInMonth(2001, 2);
+            Console.WriteLine("Days in Feb 2001: {0}", days);
+            days = DateTime.DaysInMonth(2000, 2);
+            Console.WriteLine("Days in Feb 2004: {0}", days);
+
+            DateTime now = DateTime.Now;
+            Console.WriteLine("Minute: {0}", now.Minute);
+
+            // Display the time as so: x o'clock and y minutes and z seconds
+            Console.WriteLine("{0} o'clock and {1} minutes and {2} seconds.", now.Hour - 12, now.Minute, now.Second);
+
+
+            Console.WriteLine("Write a date in this format: yyyy-mm-dd");
+            string input = Console.ReadLine();
+            Console.WriteLine();
+            if(DateTime.TryParse(input, out dateTime))
+            {
+                Console.WriteLine(dateTime);
+                TimeSpan daysPassed = now.Subtract(dateTime);
+                Console.WriteLine("Days lived: {0} Days", daysPassed.Days);
+            } else
+            {
+                Console.WriteLine("Wrong input");
+            }
+
+
+        }
+
+        static DateTime GetTomorrow()
+        {
+            return DateTime.Today.AddDays(1);
+        }
+
+        static Enum GetFirstDayOfYear(int year)
+        {
+            return new DateTime(year, 1, 1).DayOfWeek;
         }
     }
 }
