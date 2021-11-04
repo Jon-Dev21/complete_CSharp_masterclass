@@ -1,0 +1,15 @@
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Tasks and WPF\Tasks and WPF\bin\Debug\Tasks and WPF.exe.config
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Tasks and WPF\Tasks and WPF\bin\Debug\Tasks and WPF.exe
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Tasks and WPF\Tasks and WPF\bin\Debug\Tasks and WPF.pdb
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Tasks and WPF\Tasks and WPF\obj\Debug\Tasks and WPF.csproj.AssemblyReference.cache
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Tasks and WPF\Tasks and WPF\obj\Debug\MainWindow.g.cs
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Tasks and WPF\Tasks and WPF\obj\Debug\App.g.cs
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Tasks and WPF\Tasks and WPF\obj\Debug\Tasks and WPF_MarkupCompile.cache
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Tasks and WPF\Tasks and WPF\obj\Debug\Tasks and WPF_MarkupCompile.lref
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Tasks and WPF\Tasks and WPF\obj\Debug\MainWindow.baml
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Tasks and WPF\Tasks and WPF\obj\Debug\Tasks and WPF.g.resources
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Tasks and WPF\Tasks and WPF\obj\Debug\Tasks_and_WPF.Properties.Resources.resources
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Tasks and WPF\Tasks and WPF\obj\Debug\Tasks and WPF.csproj.GenerateResource.cache
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Tasks and WPF\Tasks and WPF\obj\Debug\Tasks and WPF.csproj.CoreCompileInputs.cache
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Tasks and WPF\Tasks and WPF\obj\Debug\Tasks and WPF.exe
+C:\Users\jonac\Desktop\myCareer\Udemy Lessons\Complete C# Masterclass\Tasks and WPF\Tasks and WPF\obj\Debug\Tasks and WPF.pdb
