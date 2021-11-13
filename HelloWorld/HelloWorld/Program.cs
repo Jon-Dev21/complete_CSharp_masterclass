@@ -14,6 +14,7 @@ namespace HelloWorld
             int num2 = 30;
             Console.WriteLine("The sum of "+num1+" + " + num2+ " = "+(num1+num2));
             Console.ReadKey();
+            Console.WriteLine("You've done good");
         }
     }
 }
